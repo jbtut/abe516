@@ -67,7 +67,25 @@
   
   <!-- Main Content -->
   <div class="container">
-    <iframe src="https://storymaps.arcgis.com/stories/19b9d39144d94e8f927c55838d747094" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+    <style>
+      body, html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+
+    <iframe src="https://storymaps.arcgis.com/stories/19b9d39144d94e8f927c55838d747094" frameborder="0" allowfullscreen allow="geolocation"></iframe>
+
   </div>
 
 
